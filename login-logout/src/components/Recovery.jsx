@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "../styles/Username.module.css";
 import { useAuthStore } from "../store/store.jsx";
 import toast, { Toaster } from "react-hot-toast";
@@ -89,7 +89,7 @@ export default function Recovery() {
           </form>
           <div className="text-center py-4">
             <span className="text-gray-500">
-              Can't get OTP ?
+              Can&apos;t get OTP ?
               <button onClick={resendOTP} className="text-red-500" to="/resend">
                 Resend
               </button>
