@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import styles from "../styles/Username.module.css";
 import toast, { Toaster } from "react-hot-toast";
 import { useFormik } from "formik";
